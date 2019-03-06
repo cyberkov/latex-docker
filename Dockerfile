@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:cosmic
 MAINTAINER Hannes Schaller <admin@cyberkov.at>
 RUN apt-get -qq update && \
     apt-get install -y --no-install-recommends lyx
